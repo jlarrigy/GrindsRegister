@@ -1,0 +1,707 @@
+
+body {
+    background-image: url("../images/main-content-top.png");
+    border: 1px solid grey;
+    border-radius: 0.5em 0.5em 0.5em 0.5em; /*round the corners*/
+    padding: 2em 0;
+    box-shadow: 5px 10px 15px grey;
+    margin: 3em auto;
+    width: 1000px;
+}
+section {
+	box-shadow: 1px 0 10px 4px #E8E8E8;
+    height: 580px;
+    margin: 0 auto;
+    width: 900px;
+    overflow: auto;
+}
+footer {
+    background-color: #F0F0F0;
+    border-bottom: 1px solid grey;
+    border-radius: 5px 5px 5px 5px;
+    border-right: 1px solid grey;
+  	box-shadow: 1px 0 10px 4px #E8E8E8;
+    margin: 1.2em auto;
+    padding: 0.4em 2em;
+    width: 843px;
+}
+header {
+    background-color: white;
+    border-left: 1px solid grey;
+    border-radius: 10px 5px 10px 5px;
+    border-top: 1px solid grey;
+    box-shadow: 1px 0 10px 4px #E8E8E8;
+    margin: 1.2em auto 1.4em;
+    padding: 1.5em;
+    width: 863px;
+}
+header h1{
+    font-family: Cinzel;
+    font-weight: bold;
+    line-height: 0.6em;
+    font-size: 280%;
+    text-shadow: 2px 2px grey;
+}
+
+header img {
+    float: right;
+    height: 100px;
+    width: 170px;
+}
+html {
+	background-image: url("../images/Wood-Texture-Backgrounds.jpg");
+}
+#tabs-1 img {
+    width: 38%;
+    height: 40%;
+    float: right;
+    margin-left:2em;
+}
+
+/*---------------------CSS for grinds dropdown div----------------------------------------------------*/
+.panel, .visibleContainer {
+    padding: 5px;
+    text-align: center;
+    font: bold 15px Arial, Helvetica;
+    
+    border: solid 1px #c3c3c3;
+        box-shadow:
+          0 0 2px rgba(0, 0, 0, 0.2),  
+          0 1px 1px rgba(0, 0, 0, .2),
+          0 3px 0 #fff,
+          0 4px 0 rgba(0, 0, 0, .2),
+          0 6px 0 #fff,  
+          0 7px 0 rgba(0, 0, 0, .2);
+          
+    background-color: #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+    background-image: -webkit-linear-gradient(top, #fff, #eee);
+    background-image: -moz-linear-gradient(top, #fff, #eee);
+    background-image: -ms-linear-gradient(top, #fff, #eee);
+    background-image: -o-linear-gradient(top, #fff, #eee);
+    background-image: linear-gradient(top, #fff, #eee);
+    
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.panel {
+    padding: 10px;
+    display: none;
+    text-align: left;
+}
+#vcLeftCol{
+    float: left;
+    width: 50%;
+}
+#vcRightCol{
+    float: right;
+    width: 50%;
+}
+
+/*---------------------START OF LOGIN CSS----------------------------------------------------*/
+
+#login
+{
+    box-shadow:
+          0 0 2px rgba(0, 0, 0, 0.2),  
+          0 1px 1px rgba(0, 0, 0, .2),
+          0 3px 0 #fff,
+          0 4px 0 rgba(0, 0, 0, .2),
+          0 6px 0 #fff,  
+          0 7px 0 rgba(0, 0, 0, .2);
+}
+
+#login
+{
+    background-color: #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+    background-image: -webkit-linear-gradient(top, #fff, #eee);
+    background-image: -moz-linear-gradient(top, #fff, #eee);
+    background-image: -ms-linear-gradient(top, #fff, #eee);
+    background-image: -o-linear-gradient(top, #fff, #eee);
+    background-image: linear-gradient(top, #fff, #eee);  
+    height: 250px;
+    width: 400px;
+    margin: -150px 0 0 -230px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 0;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;  
+    -webkit-box-shadow:
+          0 0 2px rgba(0, 0, 0, 0.2),
+          0 1px 1px rgba(0, 0, 0, .2),
+          0 3px 0 #fff,
+          0 4px 0 rgba(0, 0, 0, .2),
+          0 6px 0 #fff,  
+          0 7px 0 rgba(0, 0, 0, .2);
+    -moz-box-shadow:
+          0 0 2px rgba(0, 0, 0, 0.2),  
+          1px 1px   0 rgba(0,   0,   0,   .1),
+          3px 3px   0 rgba(255, 255, 255, 1),
+          4px 4px   0 rgba(0,   0,   0,   .1),
+          6px 6px   0 rgba(255, 255, 255, 1),  
+          7px 7px   0 rgba(0,   0,   0,   .1);
+    box-shadow:
+          0 0 2px rgba(0, 0, 0, 0.2),  
+          0 1px 1px rgba(0, 0, 0, .2),
+          0 3px 0 #fff,
+          0 4px 0 rgba(0, 0, 0, .2),
+          0 6px 0 #fff,  
+          0 7px 0 rgba(0, 0, 0, .2);
+}
+
+
+#login:before
+{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    border: 1px dashed #ccc;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    -moz-box-shadow: 0 0 0 1px #fff;
+    -webkit-box-shadow: 0 0 0 1px #fff;
+    box-shadow: 0 0 0 1px #fff;
+}
+
+#login h1
+{
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .7), 0px 2px 0 rgba(0, 0, 0, .5);
+    text-transform: uppercase;
+    text-align: center;
+    color: #666;
+    margin: 0 0 30px 0;
+    letter-spacing: 4px;
+    font: normal 26px/1 Verdana, Helvetica;
+    position: relative;
+}
+
+#login h1:after, h1:before
+{
+    background-color: #777;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 15px;
+    width: 120px;   
+}
+
+#login h1:after
+{ 
+    background-image: -webkit-gradient(linear, left top, right top, from(#777), to(#fff));
+    background-image: -webkit-linear-gradient(left, #777, #fff);
+    background-image: -moz-linear-gradient(left, #777, #fff);
+    background-image: -ms-linear-gradient(left, #777, #fff);
+    background-image: -o-linear-gradient(left, #777, #fff);
+    background-image: linear-gradient(left, #777, #fff);      
+    right: 0;
+}
+
+#login h1:before
+{
+    background-image: -webkit-gradient(linear, right top, left top, from(#777), to(#fff));
+    background-image: -webkit-linear-gradient(right, #777, #fff);
+    background-image: -moz-linear-gradient(right, #777, #fff);
+    background-image: -ms-linear-gradient(right, #777, #fff);
+    background-image: -o-linear-gradient(right, #777, #fff);
+    background-image: linear-gradient(right, #777, #fff);
+    left: 0;
+}
+
+fieldset
+{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+/*--------------------*/
+
+#inputs input
+{
+    background: #f1f1f1 url(http://www.red-team-design.com/wp-content/uploads/2011/09/login-sprite.png) no-repeat;
+    padding: 15px 15px 15px 30px;
+    margin: 0 0 10px 0;
+    width: 353px; /* 353 + 2 + 45 = 400 */
+    border: 1px solid #ccc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+}
+
+#login_username
+{
+    background-position: 5px -2px !important;
+}
+
+#login_password
+{
+    background-position: 5px -52px !important;
+}
+
+#inputs input:focus
+{
+    background-color: #fff;
+    border-color: #e8c291;
+    outline: none;
+    -moz-box-shadow: 0 0 0 1px #e8c291 inset;
+    -webkit-box-shadow: 0 0 0 1px #e8c291 inset;
+    box-shadow: 0 0 0 1px #e8c291 inset;
+}
+
+/*--------------------*/
+#actions
+{
+    margin: 25px 0 0 0;
+}
+
+#loginButton
+{		
+    background-color: #ffb94b;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fddb6f), to(#ffb94b));
+    background-image: -webkit-linear-gradient(top, #fddb6f, #ffb94b);
+    background-image: -moz-linear-gradient(top, #fddb6f, #ffb94b);
+    background-image: -ms-linear-gradient(top, #fddb6f, #ffb94b);
+    background-image: -o-linear-gradient(top, #fddb6f, #ffb94b);
+    background-image: linear-gradient(top, #fddb6f, #ffb94b);
+    
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    
+     -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+     -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+     box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;    
+    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d69e31 #e3a037 #d5982d #e3a037;
+
+    float: left;
+    height: 35px;
+    padding: 0;
+    width: 120px;
+    cursor: pointer;
+    font: bold 15px Arial, Helvetica;
+    color: #8f5a0a;
+}
+
+#loginButton:hover,#submit:focus
+{		
+    background-color: #fddb6f;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb94b), to(#fddb6f));
+    background-image: -webkit-linear-gradient(top, #ffb94b, #fddb6f);
+    background-image: -moz-linear-gradient(top, #ffb94b, #fddb6f);
+    background-image: -ms-linear-gradient(top, #ffb94b, #fddb6f);
+    background-image: -o-linear-gradient(top, #ffb94b, #fddb6f);
+    background-image: linear-gradient(top, #ffb94b, #fddb6f);
+}	
+
+#loginButton:active
+{		
+    outline: none;
+   
+     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+     -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;		
+}
+
+#loginButton::-moz-focus-inner
+{
+  border: none;
+}
+
+#actions a
+{
+    color: #3151A2;    
+    float: right;
+    line-height: 35px;
+    margin-left: 10px;
+}
+
+/*---------------------END OF LOGIN CSS----------------------------------------------------*/
+
+/*---------------------Vertical Line in grinds page----------------------------------------*/
+.verticalLine {
+    border-right: thick solid grey;
+}
+
+#rightCol{
+	float: right;
+}
+
+#leftCol{
+	float: left;
+}
+
+/*---------------------send email page----------------------------------------*/
+#sendEmailButton{
+	
+	   background-color: #ffb94b;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fddb6f), to(#ffb94b));
+    background-image: -webkit-linear-gradient(top, #fddb6f, #ffb94b);
+    background-image: -moz-linear-gradient(top, #fddb6f, #ffb94b);
+    background-image: -ms-linear-gradient(top, #fddb6f, #ffb94b);
+    background-image: -o-linear-gradient(top, #fddb6f, #ffb94b);
+    background-image: linear-gradient(top, #fddb6f, #ffb94b);
+    
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    
+     -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+     -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+     box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;    
+    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d69e31 #e3a037 #d5982d #e3a037;
+
+    
+    height: 35px;
+    padding: 0;
+    width: 120px;
+    cursor: pointer;
+    font: bold 15px Arial, Helvetica;
+    color: #8f5a0a;
+}
+
+#sendEmailButton:hover,#submit:focus
+{		
+    background-color: #fddb6f;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb94b), to(#fddb6f));
+    background-image: -webkit-linear-gradient(top, #ffb94b, #fddb6f);
+    background-image: -moz-linear-gradient(top, #ffb94b, #fddb6f);
+    background-image: -ms-linear-gradient(top, #ffb94b, #fddb6f);
+    background-image: -o-linear-gradient(top, #ffb94b, #fddb6f);
+    background-image: linear-gradient(top, #ffb94b, #fddb6f);
+}	
+
+#sendEmailButton:active
+{		
+    outline: none;
+   
+     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+     -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;		
+}
+
+#sendEmailButton::-moz-focus-inner
+{
+  border: none;
+}
+
+#emailInfo{
+	text-align: center;
+	font: bold 15px Arial, Helvetica;
+    color: #8f5a0a;
+}
+
+/*---------------------subjects table buttons----------------------------------------*/
+.showGrinds{
+	
+	   background-color: #ffb94b;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fddb6f), to(#ffb94b));
+    background-image: -webkit-linear-gradient(top, #fddb6f, #ffb94b);
+    background-image: -moz-linear-gradient(top, #fddb6f, #ffb94b);
+    background-image: -ms-linear-gradient(top, #fddb6f, #ffb94b);
+    background-image: -o-linear-gradient(top, #fddb6f, #ffb94b);
+    background-image: linear-gradient(top, #fddb6f, #ffb94b);
+    
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    
+     -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+     -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+     box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;    
+    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d69e31 #e3a037 #d5982d #e3a037;
+
+    
+    height: 35px;
+    padding: 0;
+    width: 120px;
+    cursor: pointer;
+    font: bold 15px Arial, Helvetica;
+    color: #8f5a0a;
+}
+
+.showGrinds:hover,#submit:focus
+{		
+    background-color: #fddb6f;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb94b), to(#fddb6f));
+    background-image: -webkit-linear-gradient(top, #ffb94b, #fddb6f);
+    background-image: -moz-linear-gradient(top, #ffb94b, #fddb6f);
+    background-image: -ms-linear-gradient(top, #ffb94b, #fddb6f);
+    background-image: -o-linear-gradient(top, #ffb94b, #fddb6f);
+    background-image: linear-gradient(top, #ffb94b, #fddb6f);
+}	
+
+.showGrinds:active
+{		
+    outline: none;
+   
+     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+     -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;		
+}
+
+.showGrinds::-moz-focus-inner
+{
+  border: none;
+}
+
+/*-------------------------Registration Button------------------------------------*/
+#register{
+	
+	   background-color: #ffb94b;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fddb6f), to(#ffb94b));
+    background-image: -webkit-linear-gradient(top, #fddb6f, #ffb94b);
+    background-image: -moz-linear-gradient(top, #fddb6f, #ffb94b);
+    background-image: -ms-linear-gradient(top, #fddb6f, #ffb94b);
+    background-image: -o-linear-gradient(top, #fddb6f, #ffb94b);
+    background-image: linear-gradient(top, #fddb6f, #ffb94b);
+    
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    
+     -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+     -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+     box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;    
+    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d69e31 #e3a037 #d5982d #e3a037;
+
+    
+    height: 35px;
+    padding: 0;
+    width: 120px;
+    cursor: pointer;
+    font: bold 15px Arial, Helvetica;
+    color: #8f5a0a;
+}
+
+#register:hover,#submit:focus
+{		
+    background-color: #fddb6f;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb94b), to(#fddb6f));
+    background-image: -webkit-linear-gradient(top, #ffb94b, #fddb6f);
+    background-image: -moz-linear-gradient(top, #ffb94b, #fddb6f);
+    background-image: -ms-linear-gradient(top, #ffb94b, #fddb6f);
+    background-image: -o-linear-gradient(top, #ffb94b, #fddb6f);
+    background-image: linear-gradient(top, #ffb94b, #fddb6f);
+}	
+
+#register:active
+{		
+    outline: none;
+   
+     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+     -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;		
+}
+
+#register::-moz-focus-inner
+{
+  border: none;
+}
+
+/*-------------------------tutor Details menu------------------------------------*/
+#tutorDetails
+{
+    box-shadow:
+          0 0 2px rgba(0, 0, 0, 0.2),  
+          0 1px 1px rgba(0, 0, 0, .2),
+          0 3px 0 #fff,
+          0 4px 0 rgba(0, 0, 0, .2),
+          0 6px 0 #fff,  
+          0 7px 0 rgba(0, 0, 0, .2);
+          
+    background-color: #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+    background-image: -webkit-linear-gradient(top, #fff, #eee);
+    background-image: -moz-linear-gradient(top, #fff, #eee);
+    background-image: -ms-linear-gradient(top, #fff, #eee);
+    background-image: -o-linear-gradient(top, #fff, #eee);
+    background-image: linear-gradient(top, #fff, #eee);
+    
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    
+	
+}
+
+/*---------------------tutor buttons----------------------------------------*/
+.tutorButton{
+	
+	   background-color: #ffb94b;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fddb6f), to(#ffb94b));
+    background-image: -webkit-linear-gradient(top, #fddb6f, #ffb94b);
+    background-image: -moz-linear-gradient(top, #fddb6f, #ffb94b);
+    background-image: -ms-linear-gradient(top, #fddb6f, #ffb94b);
+    background-image: -o-linear-gradient(top, #fddb6f, #ffb94b);
+    background-image: linear-gradient(top, #fddb6f, #ffb94b);
+    
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    
+     -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+     -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+     box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;    
+    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d69e31 #e3a037 #d5982d #e3a037;
+
+    
+    height: 35px;
+    padding: 0;
+    width: 120px;
+    cursor: pointer;
+    font: bold 15px Arial, Helvetica;
+    color: #8f5a0a;
+}
+
+.tutorButton:hover,#submit:focus
+{		
+    background-color: #fddb6f;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb94b), to(#fddb6f));
+    background-image: -webkit-linear-gradient(top, #ffb94b, #fddb6f);
+    background-image: -moz-linear-gradient(top, #ffb94b, #fddb6f);
+    background-image: -ms-linear-gradient(top, #ffb94b, #fddb6f);
+    background-image: -o-linear-gradient(top, #ffb94b, #fddb6f);
+    background-image: linear-gradient(top, #ffb94b, #fddb6f);
+}	
+
+.tutorButton:active
+{		
+    outline: none;
+   
+     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+     -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;		
+}
+
+.tutorButton::-moz-focus-inner
+{
+  border: none;
+}
+
+/*---------------------delete buttons----------------------------------------*/
+
+.deleteButton{
+	
+	   background-color: #E91010;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#E91010), to(#FC4545));
+    background-image: -webkit-linear-gradient(top, #E91010, #FC4545);
+    background-image: -moz-linear-gradient(top, #E91010, #FC4545);
+    background-image: -ms-linear-gradient(top, #E91010, #FC4545);
+    background-image: -o-linear-gradient(top, #E91010, #FC4545);
+    background-image: linear-gradient(top, #E91010, #FC4545);
+    
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    
+     -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+     -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+     box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;    
+    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d69e31 #e3a037 #d5982d #e3a037;
+
+    
+    height: 35px;
+    padding: 0;
+    width: 120px;
+    cursor: pointer;
+    font: bold 15px Arial, Helvetica;
+    color: #900A0A;
+}
+
+.deleteButton:hover,#submit:focus
+{		
+    background-color: #FD6F71;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FC4545), to(#FD6F71));
+    background-image: -webkit-linear-gradient(top, #FC4545, #FD6F71);
+    background-image: -moz-linear-gradient(top, #FC4545, #FD6F71);
+    background-image: -ms-linear-gradient(top, #FC4545, #FD6F71);
+    background-image: -o-linear-gradient(top, #FC4545, #FD6F71);
+    background-image: linear-gradient(top, #FC4545, #FD6F71);
+}	
+
+.deleteButton:active
+{		
+    outline: none;
+   
+     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+     -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;		
+}
+
+.deleteButton::-moz-focus-inner
+{
+  border: none;
+}
+
+/*---------------------registration input boxes----------------------------------------*/
+#details input
+{
+    background: #f1f1f1;
+    padding: 4px 4px 4px 4px;
+    margin: 0 0 10px 0;
+    width: 250px; 
+    border: 1px solid #ccc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    font-size: 15px;
+}
+#details input:focus
+{
+    background-color: #fff;
+    border-color: #e8c291;
+    outline: none;
+    -moz-box-shadow: 0 0 0 1px #e8c291 inset;
+    -webkit-box-shadow: 0 0 0 1px #e8c291 inset;
+    box-shadow: 0 0 0 1px #e8c291 inset;
+}
+
+label
+{
+	font-size: 15px;
+}

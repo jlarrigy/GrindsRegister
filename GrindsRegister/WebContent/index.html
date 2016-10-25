@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="css/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+<link href="css/jquery.dataTables_themeroller.css" rel="stylesheet">
+
+<link href="css/main.css" rel="stylesheet">
+
+
+<script src="js/jquery-1.7.1.min.js"></script>
+
+<script src="js/jquery-ui-1.10.3.custom.js"></script>
+<script src="js/jquery.dataTables.min.js"></script>
+<script src="js/main.js"></script>
+
+<title>Grinds Register</title>
+</head>
+<body>
+	<header>
+		<img src="images/ait_logo.jpg" alt="AIT Logo">
+		<h1>Grinds Register</h1>
+	</header>
+	
+	<section>
+		<ul>
+			<li><a href="#tabs-1">Home</a></li>
+			<li><a id="table" href="#tabs-2">Grinds</a></li>
+			<li><a href="#tabs-3">Register</a></li>
+			<li><a href="#tabs-4">Login</a></li>
+		</ul>
+		<div id="tabs-1">
+			<img src="images/Students-Study.jpg" alt="Students Studying"
+				title="studying">
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;Before taking grinds in any subject, students
+			 are advised to consult with their lecturer(s) or course director,
+			 who may offer additional support in problematic areas of your course.
+			  They also know more about the course material than potential tutors.</p>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;Any fees should be agreed between the tutor
+			 and the student(s) in advance.</p>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;For safety reasons, students are advised to 
+			hold the first meeting in a public place.</p>
+			
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;Any student giving grinds to another student should be aware and
+			 maintain clarity of who is doing the work to ensure that accusations of academic
+			  dishonesty (plagiarism) are avoided. Tutors should avoid assisting assessed work.</p>
+			  
+			<p>
+				&nbsp;&nbsp;&nbsp;&nbsp; Tutors giving grinds and students receiving grinds 
+				should be familiar with the Athlone IT Code of Practice for dealing
+				 with Plagiarism:<a href="http://ait.libguides.com/content.php?pid=648845&sid=5372651" target="_top">
+					AIT Plagarism</a>
+			</p>
+		</div>
+		
+		
+		<div id="tabs-2">
+			<table id="table_id">
+				<thead>
+					<tr>
+						<th id="subjects_head">Subjects</th>
+						<th id="grinds_head">Grinds</th>
+					</tr>
+				</thead>
+				<tbody id="table_body">
+				</tbody>
+			</table>
+			
+		</div>
+		
+		
+		
+		<div id="tabs-3">
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;Please Fill out the Registration below to apply as a Tutor</p>
+			<form id="registration">
+				<fieldset id="details">
+					<label for="name"> &nbsp;Name: </label> <br />
+					<input type="text" name="name" id="reg_name" size="30" value="" class="inputBoxes"/> <br />
+					<label for="contact_email">&nbsp;E-mail address: </label> <br /> 
+					<input type="text" id="contact_email" size="30" value="" /> <br />
+					<label for="phone"> &nbsp;Phone Number: </label> <br />
+					<input type="text" id="phone" size="30" value="" /> <br />
+					<label for="username"> &nbsp;Username: </label> <br />
+					<input type="text" id="username" size="30" maxLength="100" value="" /> <br />
+					<label for="password"> &nbsp;Password: </label> <br />
+					<input type="password" id="password" size="30" maxLength="100" value="" /> <br />
+					<label for="confirm_password"> &nbsp;Confirm Password: </label> <br />
+					<input type="password" id="confirm_password" size="30" maxLength="100" value="" /> <br />
+				</fieldset>
+				<br />
+				<input type="submit" value="Submit" id="register"/>
+			</form>
+			
+		</div>
+		
+		
+		<div id="tabs-4">
+		<div id="login_box">
+			<form id="login">
+    			<h1>Log In</h1>
+    				<fieldset id="inputs">
+        				<input id="login_username" type="text" placeholder="Username" autofocus required>   
+       					<input id="login_password" type="password" placeholder="Password" required>
+    				</fieldset>
+    			<fieldset id="actions">
+        			<input type="submit" id="loginButton" value="Log in">
+        			<a href="" id="forgotPassword">Forgot your password?</a><a href="#tabs-3" onClick="location.reload(true);">Register</a>
+   				</fieldset>
+			</form>
+		</div>
+		</div>
+	</section>
+	<footer>
+		<p>&copy;&nbsp;Jonathan Larrigy A00191564 Grinds Register 2013 MSc Applied Software Engineering</p>
+	</footer>
+
+</body>
+</html>
